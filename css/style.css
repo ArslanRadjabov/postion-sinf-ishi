@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main-box{
+  /* position: relative; */
+}
+.box{
+  margin: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 360px;
+  height: 240px;
+  padding: 40px 25px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-decoration: none;
+  box-sizing: border-box;
+  align-items: center;
+}
+.title-of-box{
+  margin-bottom: 11px;
+  width: 360px;
+}
+.text-of-box{
+  margin-bottom: 24px;
+  color: #170C04;
+}
+.food-image{
+  position: absolute;
+  left: 150px;
+  top: -25px;
+  /* border: 1px solid #E9C5A5; */
+}
+.main-section{
+  display: flex;
+  gap: 50px;
+}
+.details-link{
+  color: #E27B3A;
+  text-decoration: none;
+  text-transform: capitalize;
+}
