@@ -13,9 +13,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-.main-box{
-  /* position: relative; */
-}
 .box{
   margin: 50px 20px;
   display: flex;
@@ -30,6 +27,7 @@ body {
   text-decoration: none;
   box-sizing: border-box;
   align-items: center;
+  box-shadow: 4px 4px 8px 3px rgba(234, 79, 107, 0.18);
 }
 .title-of-box{
   margin-bottom: 11px;
